@@ -8,6 +8,12 @@ header:after{
   display: none;
   clear:both;
 }
+.partesopra:after{
+  content: "";
+  display: none;
+  clear:both;
+}
+
 .partesopra{
   height: 80px;
   background-color: blue;
@@ -25,6 +31,7 @@ header:after{
   color: white;
   display: block;
   text-decoration: none;
+  margin-top: 20px;
  }
 .partesoprasin{
   width: 10%;
@@ -47,11 +54,83 @@ header:after{
 .partesopradestr img{
   height: 20px;
   margin-right: 20px;
+  margin-top: 20px;
+}
+.partemezzo:after{
+content: "";
+display: none;
+clear:both;
 }
 .partemezzo{
   height: 100px;
   background-color: grey;
-  width: 100%
-  padding: 20px
-
+  width: 100%;
+  padding: 20px;
 }
+.partemezzo ul{
+  list-style-type: none;
+  }
+.partemezzo li{
+  display: inline-block;
+  }
+.partemezzo a{
+  color: #021166;
+}
+.partemezzosinistra{
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+.partemezzosinistra img{
+  height: 20px;
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.partemezzodestra{
+  height: 100px;
+  width: 50%;
+  float: right;
+}
+.partemezzodestra img{
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+.partemezzodestra a{
+ color: white;
+ border: 50px;
+ border-color: red;
+ }
+ .partesotto:after{
+ content: "";
+ display: none;
+ clear:both;
+ }
+ .partesotto{
+   height: 100px;
+   background-color: white;
+   width: 100%;
+   padding: 20px;
+ }
+ .partesotto a{
+   color: #021166;
+  }
+ .partesottosinistra{
+   height: 100px;
+   width: 40%;
+   float:left;
+   margin-left: 130px;
+ }
+ .partesottodestra{
+   height: 100px;
+   width: 40%;
+   float:right;
+   margin-top: 20px;
+}
+.partesotto ul{
+  list-style-type: none;
+ }
+ .partesotto li{
+ display: inline-block;
+ }
