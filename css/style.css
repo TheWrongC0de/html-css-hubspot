@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header:after{
+  content: "";
+  display: none;
+  clear:both;
+}
+.partesopra{
+  height: 80px;
+  background-color: blue;
+  width: 100%;
+  border-top: 5px solid orange;
+  padding: 10px;
+}
+.partesopra ul{
+  list-style-type: none;
+}
+.partesopra li{
+  display: inline-block;
+}
+.partesopra a{
+  color: white;
+  display: block;
+  text-decoration: none;
+ }
+.partesoprasin{
+  width: 10%;
+  float: left;
+  height: 60px;
+}
+.logo img{
+  height: 60px;
+}
+.partesopracentr{
+  width: 60%;
+  float:left;
+  height: 60px;
+}
+.partesopradestr{
+  width: 30%;
+  float: right;
+  height: 60px;
+}
+.partesopradestr img{
+  height: 20px;
+  margin-right: 20px;
+}
+.partemezzo{
+  height: 100px;
+  background-color: grey;
+  width: 100%
+  padding: 20px
+
+}
