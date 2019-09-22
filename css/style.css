@@ -108,7 +108,7 @@ clear:both;
  clear:both;
  }
  .partesotto{
-   height: 100px;
+   height: 50px;
    background-color: white;
    width: 100%;
    padding: 20px;
@@ -117,13 +117,13 @@ clear:both;
    color: #021166;
   }
  .partesottosinistra{
-   height: 100px;
+   height: 50px;
    width: 40%;
    float:left;
    margin-left: 130px;
  }
  .partesottodestra{
-   height: 100px;
+   height: 50px;
    width: 40%;
    float:right;
    margin-top: 20px;
@@ -134,3 +134,53 @@ clear:both;
  .partesotto li{
  display: inline-block;
  }
+
+ .primaparte::after{
+   content: "";
+   display: none;
+   clear:both;
+  }
+ .primaparte{
+   height: 500px;
+   width: 100%;
+
+
+  }
+  .primaparte img{
+    position: relative;
+    background-image: cover;
+    width: 100%;
+    height: 500px
+
+
+  }
+  .primaparte h1{
+    color: grey;
+  }
+  .primaparte p{
+    color: grey;
+  }
+  .primaparte h4{
+    color: grey;
+    margin-top: 15px;
+    border: 10px;
+    border-radius: 50%;
+    border color: black;
+  }
+  .partesopraimg::after{
+    content: "";
+    display: none;
+    clear:both;
+  }
+  .partesopraimg {
+    width: 100%;
+    height: 135px;
+    background-color: grey;
+    margin-top: 150px;
+  }
+  .partesopraimg img{
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    height: 150px;
+  }
