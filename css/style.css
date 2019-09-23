@@ -119,7 +119,7 @@ clear:both;
    height: 50px;
    background-color: white;
    width: 100%;
-   padding: 20px;
+   padding: 0 20px;
  }
  .partesotto a{
    color: #021166;
@@ -135,7 +135,7 @@ clear:both;
    height: 50px;
    width: 40%;
    float:right;
-   margin-top: 20px;
+
 }
 .partesotto ul{
   list-style-type: none;
@@ -146,13 +146,16 @@ clear:both;
 
  .primaparte::after{
    content: "";
-   display: none;
+   display: block;
    clear:both;
+
   }
  .primaparte{
    height: 500px;
    width: 100%;
-
+   background-image:url(../img/sfondo.PNG);
+   background-size: cover;
+   position: relative;
 
   }
   .primaparte img{
@@ -161,16 +164,23 @@ clear:both;
     width: 100%;
     height: 500px
 
+  }
+  .primotext{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
 
   }
   .primaparte h1{
-    color: grey;
+    color: blue;
   }
   .primaparte p{
-    color: grey;
+    color: blue;
   }
   .primaparte h4{
-    color: grey;
+    color: blue;
     margin-top: 15px;
     border: 10px;
     border-radius: 50%;
@@ -184,7 +194,6 @@ clear:both;
   .partesopraimg {
     width: 100%;
     height: 135px;
-    background-color: grey;
     margin-top: 150px;
   }
   .partesopraimg img{
@@ -192,6 +201,7 @@ clear:both;
     margin:0px auto;
     text-align:center;
     height: 150px;
+
   }
   .partesottotesto{
     width: 100%;
@@ -262,7 +272,7 @@ clear:both;
   .marketinghub{
     width: 100%;
     height: 600px;
-    float: left;
+
   }
   .marketinghub ul{
     list-style-type: none;
@@ -321,11 +331,11 @@ clear:both;
   .rettangoloblu{
     width: 100%;
     height: 500px;
+    background-color: #09e6b9;
   }
   .partescrittura{
     width: 100%;
-    height: 250px;
-    background-color: #09e6b9;
+    height: 150px;
   }
   .partescrittura h3{
     text-align: center;
@@ -333,4 +343,26 @@ clear:both;
   .partescrittura p{
     text-align: center;
     margin-top: 10px;
+  }
+  .partetabella{
+    width: 100%;
+    height: 250px;
+  }
+  .tabellasopra{
+    float: left;
+    height: 125px;
+    width: 100%;
+  }
+  .primoblocco{
+    width: 100%;
+    height: 160px;
+  }
+  .primoblocco img{
+    margin-left: 300px;
+    margin-bottom: 100px;
+  }
+  .primoblocco p{
+    color: white;
+    margin-left: 300px;
+    margin-bottom: 150px;
   }
