@@ -178,7 +178,7 @@ clear:both;
   }
   .partesopraimg::after{
     content: "";
-    display: none;
+    display: block;
     clear:both;
   }
   .partesopraimg {
@@ -208,7 +208,7 @@ clear:both;
   }
   .freehubspot::after{
     content: "";
-    display: none;
+    display: block;
     clear:both;
   }
   .freehubspot{
@@ -256,8 +256,8 @@ clear:both;
   }
   .marketinghub::after{
     content: "";
-    display: none;
-    clear:both;
+    display: block;
+    clear: both;
   }
   .marketinghub{
     width: 100%;
@@ -315,7 +315,7 @@ clear:both;
   }
   .rettangoloblu::after{
     content: "";
-    display: none;
+    display: block;
     clear:both;
   }
   .rettangoloblu{
