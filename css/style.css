@@ -327,3 +327,10 @@ clear:both;
     height: 250px;
     background-color: #09e6b9;
   }
+  .partescrittura h3{
+    text-align: center;
+  }
+  .partescrittura p{
+    text-align: center;
+    margin-top: 10px;
+  }
