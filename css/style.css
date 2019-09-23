@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  color: blue;
+}
+h1 h2 h3 h4 h5 p{
+  color: blue;
+}
 header:after{
   content: "";
   display: none;
@@ -75,6 +81,7 @@ clear:both;
   }
 .partemezzo a{
   color: #021166;
+  text-decoration: none;
 }
 .partemezzosinistra{
   height: 100px;
@@ -101,6 +108,7 @@ clear:both;
  color: white;
  border: 50px;
  border-color: red;
+ text-decoration: none;
  }
  .partesotto:after{
  content: "";
@@ -115,6 +123,7 @@ clear:both;
  }
  .partesotto a{
    color: #021166;
+   text-decoration: none;
   }
  .partesottosinistra{
    height: 50px;
@@ -183,4 +192,138 @@ clear:both;
     margin:0px auto;
     text-align:center;
     height: 150px;
+  }
+  .partesottotesto{
+    width: 100%;
+    height: 135px;
+  }
+  .partesottotesto h3{
+    text-align: center;
+    color: blue;
+  }
+  .partesottotesto p{
+    text-align: center;
+    display: block;
+    color: blue;
+  }
+  .freehubspot::after{
+    content: "";
+    display: none;
+    clear:both;
+  }
+  .freehubspot{
+    width: 70%;
+    height: 200px
+  }
+  .freehubspotsin{
+    height: 200px;
+    width: 50%;
+    float: left;
+
+  }
+  .freehubspotsin img{
+    width: 200px;
+    height: 100px;
+    margin-left: 230px;
+  }
+  .freehubspotsin a{
+    margin-top: 50px;
+    padding: 20px;
+    border: 10px;
+    border color: orange;
+    text-decoration: none;
+    margin-left: 270px;
+  }
+  .freehubspotdes{
+    height: 200px;
+    width: 50%;
+    float: left;
+  }
+  .freehubspotdes h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  .freehubspotdes p{
+    color: blue;
+  }
+  .freehubspotdes ul{
+    list-style-type: none;
+    color: blue;
+  }
+  .freehubspotdes li{
+    display: inline-block;
+  }
+  .marketinghub::after{
+    content: "";
+    display: none;
+    clear:both;
+  }
+  .marketinghub{
+    width: 100%;
+    height: 600px;
+    float: left;
+  }
+  .marketinghub ul{
+    list-style-type: none;
+  }
+  .marketinghub li{
+    margin-left: 180px;
+    margin-top: 10px;
+    color: blue;
+  }
+  .marketinghub img{
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+  }
+  .marketinghubsin{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  .marketinghub h5{
+    margin-left: 200px;
+    margin-top: 10px;
+    color: blue;
+  }
+  .marketinghub p{
+    margin-left: 150px;
+    color: blue;
+  }
+  .marketinghub hr{
+    width: 210px;
+    margin-left: 150px;
+    color: black;
+    margin-top: 10px;
+
+  }
+  .marketinghub h4{
+    margin-left: 180px;
+    margin-top: 10px;
+    color: blue;
+  }
+  .marketinghubcen{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  .marketinghubdes{
+    width: 400px;
+    height: 600px;
+    float: left;
+  }
+  .rettangoloblu::after{
+    content: "";
+    display: none;
+    clear:both;
+  }
+  .rettangoloblu{
+    width: 100%;
+    height: 500px;
+  }
+  .partescrittura{
+    width: 100%;
+    height: 250px;
+    background-color: #09e6b9;
   }
